@@ -1,8 +1,8 @@
 # RecursiveParser
 
 A recursive desdent parser that evaluates arithmetic expressions defined by the follwoing context-free grammar described in EBNF:
-    command -> expr '\n' 
-    expr -> term { + term | - term }
+    command -> expr '\n'   
+    expr -> term { + term | - term } 
     term -> power { * power | / power | % power }
     power -> factor [ ^power ]
     factor -> [-] factor1
@@ -13,6 +13,6 @@ Sample1:
 
 
 
-Sapmple2: 
+Sample2: 
 
     
